@@ -4,32 +4,33 @@
 
 This project showcases a complete end-to-end image classification web app built with **Gradio** and powered by a **custom-trained Convolutional Neural Network (CNN)** using **PyTorch**. The model is designed to classify images into one of three categories:
 
-* **Dog**
-* **Cat**
-* **Person**
+- **Dog**
+- **Cat**
+- **Person**
 
 The project highlights deep learning model training, PyTorch model integration, and user-friendly interface deployment with Gradio.
 
 ## Demo
+
 Visit the following link to view the demo:
 https://huggingface.co/spaces/nivakaran/classification-gradio-KNCVU
 
 ## 🔍 Key Highlights
 
-* ✅ **Custom CNN architecture** developed from scratch
-* 🧠 Model trained on a clean and curated dataset of animals and people
-* ⚡ Lightning-fast predictions using optimized PyTorch model
-* 🎨 Annotated output images showing the predicted label
-* 🌐 Gradio web interface for instant, local testing
+- ✅ **Custom CNN architecture** developed from scratch
+- 🧠 Model trained on a clean and curated dataset of animals and people
+- ⚡ Lightning-fast predictions using optimized PyTorch model
+- 🎨 Annotated output images showing the predicted label
+- 🌐 Gradio web interface for instant, local testing
 
 ---
 
 ## 🚀 Tech Stack
 
-* **Python 3.7+**
-* **PyTorch** for custom CNN model training
-* **Gradio** for UI/UX and interaction
-* **Pillow** for image manipulation
+- **Python 3.7+**
+- **PyTorch** for custom CNN model training
+- **Gradio** for UI/UX and interaction
+- **Pillow** for image manipulation
 
 ---
 
@@ -77,9 +78,9 @@ The app will be available at [http://127.0.0.1:7860](http://127.0.0.1:7860).
 
 This model is a **custom CNN** built and trained from scratch without relying on pretrained backbones. It consists of convolutional layers, ReLU activations, pooling layers, and fully connected layers optimized for classifying 128x128 RGB images.
 
-* Input size: `3 x 128 x 128`
-* Architecture: `Conv2D -> ReLU -> MaxPool -> ... -> FC -> Softmax`
-* Output classes: `Cat`, `Dog`, `Person`
+- Input size: `3 x 128 x 128`
+- Architecture: `Conv2D -> ReLU -> MaxPool -> ... -> FC -> Softmax`
+- Output classes: `Cat`, `Dog`, `Person`
 
 ---
 
@@ -87,9 +88,9 @@ This model is a **custom CNN** built and trained from scratch without relying on
 
 The Gradio interface allows users to:
 
-* Upload an image (or use the webcam)
-* Get the predicted class (`Cat`, `Dog`, or `Person`)
-* View a labeled version of the uploaded image with the prediction
+- Upload an image
+- Get the predicted class (`Cat`, `Dog`, or `Person`)
+- View a labeled version of the uploaded image with the prediction
 
 ---
 
@@ -99,7 +100,8 @@ The Gradio interface allows users to:
 gradio
 torch
 torchvision
-Pillow
+opencv-python
+pillow
 ```
 
 Install them via:
@@ -122,10 +124,10 @@ Machine Learning Enthusiast | Full Stack Developer
 
 This project demonstrates end-to-end ML deployment skills:
 
-* Custom neural network design
-* Model training and evaluation in PyTorch
-* Real-time inference using Gradio
-* Clean and interactive UI for non-technical users
+- Custom neural network design
+- Model training and evaluation in PyTorch
+- Real-time inference using Gradio
+- Clean and interactive UI for non-technical users
 
 It represents a strong foundation for scalable, production-ready ML applications with real-world user interaction.
 
@@ -134,6 +136,3 @@ It represents a strong foundation for scalable, production-ready ML applications
 ## 📄 License
 
 MIT License
-
-
-
